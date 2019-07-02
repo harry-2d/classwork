@@ -1,0 +1,111 @@
+    
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<meta charset="utf-8"/>
+	<meta name="authour" content="dota2"/>
+</head>
+<body>
+<form method="POST" action="#" name="login" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Registration</legend>
+		<table border="0" cellspacing="10" cellpadding="10">
+		<tr>
+		<td>fullname</td>
+		<td>
+		<input type="text" name="fullname" placeholder="First Middle Last" required/>
+		</td></tr>
+		<tr>
+		<td>E-mail</td>
+		<td>
+			<input type="email" name="email" placeholder="you@domain.com" required/>
+		</td></tr>
+		<tr>
+			<td>
+				Password
+			</td>
+			<td><input type="password" name="pass" placeholder="########" required/></td>
+			</tr>
+			<tr>
+				<td>
+					Gender
+				</td>
+				<td>
+					<input type="radio" name="gender" value="male"> Male
+  					<input type="radio" name="gender" value="female"> Female
+ 					 <input type="radio" name="gender" value="other"> Other</td>
+				
+				
+			</tr>
+			<tr>
+				<td>
+					city
+				</td>
+				<td>
+					<select name="City">
+					<optgroup label="Nepal">
+					<option value="Kathmandu">Kathmandu</option>
+					<option value="Bhaktapur">Bhaktpur</option>
+					<option value="Lalitpur">Lalitpur</option></optgroup>
+					<optgroup label="United States">
+					<option value="New York">New York</option>
+					<option value="Chicago">Chicago</option>
+					<option value="Los Angeles">Los Angeles</option></optgroup>
+					<optgroup label="The Great Britian">
+					<option value="London">London</option>
+					<option value="Manchester">Manchester</option>
+					<option value="Chelsea">Chelsea</option></optgroup>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>DOB</td>
+				<td>
+					<input type="datetime-local" name="date" required/>
+
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					course
+				</td>
+				<td>
+					<input type="checkbox" name="php" value="PHP" checked/>PHP
+					<input type="checkbox" name="ASP" checked/>ASP
+					<input type="checkbox" name="JAVA" checked/>JAVA
+				</td>
+			</tr>
+			<tr>
+				<td>Photo</td>
+				<td>
+					<input type="file" name="upload" placeholer="Browse" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>Message</td>
+				<td>
+					<textarea rows="15" cols="25" name="message"></textarea>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox"/>I agree to the terms and conditions
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="login" name="submit"/>
+				</td>
+				<td>
+					<input type="reset" value="Cancel" name="Cancel"/>
+				</td>
+			</tr>
+				
+		</table>	
+	</fieldset>                              
+</form>
+</body>
+</html>
